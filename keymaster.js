@@ -134,7 +134,8 @@
   function filter(event){
     var tagName = (event.target || event.srcElement).tagName;
     // ignore keypressed in any elements that support keyboard data input
-    return !(tagName == 'INPUT' || tagName == 'SELECT' || tagName == 'TEXTAREA');
+    //return !(tagName == 'INPUT' || tagName == 'SELECT' || tagName == 'TEXTAREA');
+    return( true )
   }
 
   // initialize key.<modifier> to false
